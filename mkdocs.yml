@@ -1,0 +1,142 @@
+# Project information
+site_name: My Notes
+site_description: Tổng hợp tài liệu học lập trình
+site_author: Bùi Hải Nam
+site_url: https://buihainam.com/
+
+# Repository
+repo_name: Follow
+repo_url: https://github.com/VNAPNIC/Learn-to-Code
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 Bùi Hải Nam'
+
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'globe'
+      link: 'http://finishcoding.com/'
+    - type: 'github'
+      link: 'https://github.com/VNAPNIC'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/NankaiNotes'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/channel/UCRDfk9nY7DbmpRjcfrwcwPw'
+
+# Google Analytics
+google_analytics:
+  - 'UA-139140751-1'
+  - 'auto'
+  
+# Configuratio
+# install material theme : "pip install mkdocs-material"
+theme:
+  logo: 'img/logo.png'
+  favicon: 'img/logo.png'
+  name: material
+  # 404 page
+  static_templates:
+    - 404.html
+  # Don't include MkDocs' JavaScript
+  #include_search_page: false
+  #search_index_only: true
+  font: false
+    #text: 'Roboto Light'
+    #code: 'Roboto Light'
+  language: vi
+  feature:
+      tabs: false
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'  
+  custom_dir: 'theme'    
+
+extra_css: ["assets/wodby.css"]
+extra_javascript: ["assets/jquery-3.3.1.min.js", "assets/intercom.js", "assets/wodby.js"]
+     
+# Extensions
+# run cmd "pip install pymdown-extensions"
+markdown_extensions:
+  - codehilite
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Page tree
+nav:
+  - About: index.md
+  - Oracle Certified:
+    - SCJP, OCPJP: oraclecertified/ocpjpvsscjp.md
+  - Programming:
+    - Lập trình tuyến tính là gì: programming/lap-trinh-tuyen-tinh-la-gi-uu-nhuoc-diem.md
+    - Lập trình cấu trúc là gì: programming/lap-trinh-cau-truc-la-gi-uu-nhuoc-diem.md
+    - Lập trình hướng đối tượng là gì: programming/lap-trinh-huong-doi-tuong-la-gi-uu-nhuoc-diem.md
+    - So sánh POP với OOP: programming/oop-vs-pop.md
+  - Java:
+    - Ngôn ngữ Java là gì: java/ngon-ngu-java-la-gi.md
+    - OOP Trong Java: java/cac-tinh-chat-huong-doi-tuong-cua-java.md
+  - JUnit:
+    - JUnit là gì: junit/junit-la-gi-vi-du-junit-voi-eclipse-maven.md
+    - Assertions là gì: junit/assertions-la-gi-code-vi-du-junit-voi-assertions.md
+    - Test runner và Test suite: junit/test-runner-va-test-suite-tao-bo-test-voi-junit.md
+    - Thứ tự chạy các test case trong JUnit: junit/thu-tu-chay-cac-test-case-trong-junit-vi-du.md
+    - JUnit Expected Exceptions: junit/junit-expected-exceptions-code-vi-du-test-exception-voi-junit.md
+    - JUnit với Matchers và assertThat: junit/vi-du-junit-voi-matchers-va-assertthat.md
+    - JUnit Ignoring và Timeout với test case: junit/vi-du-junit-ignoring-tests-va-timeout-voi-test-case.md
+  - Kotlin:
+    - Kotlin Basic: kotlin/kotlin_basic.md
+    - Kotlin Class và kế thừa: kotlin/kotlin_class_inheritance.md
+    - Kotlin Property và field: kotlin/kotlin_property_field.md
+    - Kotlin Funtion: kotlin/kotlin_function.md
+    - Kotlin Inline function: kotlin/kotlin_inline_function.md
+    - Kotlin Higher order funtion: kotlin/kotlin_higher_order_function.md
+    - Kotlin Inteface: kotlin/kotlin_inteface.md
+    - Kotlin Data class: kotlin/kotlin_data_class.md
+    - Kotlin Nested class: kotlin/kotlin_nested_class.md
+    - Kotlin Visibility Modifiers: kotlin/kotlin_visibility_modifiers.md
+    - Kotlin Lambda: kotlin/kotlin_lambda.md
+    - Kotlin Collection: kotlin/kotlin_collection.md
+    - Kotlin Enum Classes: kotlin/kotlin_enum_classes.md
+    - Kotlin Overloading operator: kotlin/kotlin_overloading_operator.md
+    - Kotlin Range: kotlin/kotlin_range.md
+    - Kotlin Idioms: kotlin/kotlin_idioms.md
+    - Kotlin Exception: kotlin/kotlin_exception.md
+    - Kotlin Delegation: kotlin/kotlin_delegation.md
+    - Kotlin Delegated property: kotlin/kotlin_delegated_property.md
+    - Gọi Java code từ Kotlin: kotlin/call_java_from_kotlin.md
+    - Gọi Kotlin từ Java: kotlin/call_kotlin_from_java.md
+  - Dart:
+    - Dart Cài đặt môi trường: dart/dart_environment_settings.md
+    - Dart Basic: dart/dart_core.md
+    #- So sánh Dart và Swift: dart/dart_dart_vs_swift_a_comparison.md
+    - Dart Async: dart/dart_async_intro.md
+  - Flutter:
+    - 9 lý do tại sao nên chọn Flutter: flutter/flutter_introduction.md
+    - Flutter ScreenUtil: flutter/flutter_screenutil.md
