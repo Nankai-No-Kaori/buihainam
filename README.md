@@ -1,3 +1,5 @@
+### https://buihainam.com
+
 No matter the route you take, it doesn’t really matter as long as you practice a shit ton. Look through the popular languages and decide which one you want to start with. I’d go with one of the following: Java, Swift, Kotlin, C, C++, Dart, PHP. It doesn’t matter that much, and before you get a job doing it you’ll probably want to have bounced around a little bit.
 
 Instead of giving step by step instructions, I'm going to give you a few pointers. Please pay attention to these, don't just be like "yeah whatever." Following these tips will make you grow way faster, and if you actually follow these tips completely, you'll probably be the fastest learning programmer in history. **Nobody follows these rules until way later than they should have, and everyone regrets it a bit. **It's not a huge deal because everyone does it, but you can seriously make a huge difference. You could be job-ready in 3 months easy if you practice every day and do this stuff. If you don't, I'd say you're probably looking at about 1--3 years of practice at least before anyone hires you.
