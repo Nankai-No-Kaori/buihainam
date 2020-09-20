@@ -1,5 +1,33 @@
 ### https://buihainam.com
 
+### Nice to meet you 👋 
+I am Nankai, currently working as a Senior Mobile Developer. I love learning new stuff, I love teaching it even more.
+I like writing about tech related stuff, educating colleagues and other devs about best practices and cleaner code. Also I like building things. Hit me up with any idea you have.
+
+- 🔭 I’m currently working on Developing a course for Flutter
+- 🌱 I’m currently learning about the schematics of multiple technologies
+- 👯 I’m looking to collaborate on anything that is fun and challenging
+- 🤔 I’m looking for help with... Nah, I'm looking for helping you.
+- 💬 Ask me about Android, IOS, Flutter, Dart, Kotlin, Java, Swift
+- 📫 How to reach me: [Github](https://github.com/buihainam)
+- 😄 Pronouns: VNAPNIC
+- ⚡ Fun fact: Things look easy when you see me doing them.
+
+<!--
+**VNAPNIC/nankai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
 No matter the route you take, it doesn’t really matter as long as you practice a shit ton. Look through the popular languages and decide which one you want to start with. I’d go with one of the following: Java, Swift, Kotlin, C, C++, Dart, PHP. It doesn’t matter that much, and before you get a job doing it you’ll probably want to have bounced around a little bit.
 
 Instead of giving step by step instructions, I'm going to give you a few pointers. Please pay attention to these, don't just be like "yeah whatever." Following these tips will make you grow way faster, and if you actually follow these tips completely, you'll probably be the fastest learning programmer in history. **Nobody follows these rules until way later than they should have, and everyone regrets it a bit. **It's not a huge deal because everyone does it, but you can seriously make a huge difference. You could be job-ready in 3 months easy if you practice every day and do this stuff. If you don't, I'd say you're probably looking at about 1--3 years of practice at least before anyone hires you.
